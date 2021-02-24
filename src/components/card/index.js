@@ -1,6 +1,7 @@
 import React from 'react';
 import './card.style.scss';
 import {Col, Input, Row} from "reactstrap";
+import './card.style.scss';
 
 class Card extends React.Component {
     render() {
