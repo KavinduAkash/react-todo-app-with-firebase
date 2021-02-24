@@ -1,9 +1,18 @@
 .todo-app {
   .header {
-
+      width: 100%;
+      text-align: center;
+      color: blueviolet;
+      font-family: "Century Gothic";
+      font-weight: bold;
+      font-size: 40px;
+      margin-top: 20px;
+      margin-bottom: 50px;
   }
 
   .content {
-
+    width: 40vw;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin: auto;
   }
 }
