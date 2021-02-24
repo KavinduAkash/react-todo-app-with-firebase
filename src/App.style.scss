@@ -8,11 +8,30 @@
       font-size: 40px;
       margin-top: 20px;
       margin-bottom: 50px;
+    p{
+      font-size: 15px;
+    }
   }
 
   .content {
     width: 40vw;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     margin: auto;
+    padding: 2vw;
+    .app-input {
+      padding: 1vw;
+      background: #ede7f6;
+      border-radius: 10px;
+      input {
+        margin-top: 5px;
+        margin-bottom: 5px;
+      }
+      button {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        background: blueviolet;
+        color: white;
+      }
+    }
   }
 }
