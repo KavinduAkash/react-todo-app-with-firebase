@@ -1,6 +1,7 @@
 import React from 'react';
 import {Col, Row} from "reactstrap";
 import './App.style.scss';
+import Card from "./components/card";
 
 class App extends React.Component{
   render() {
@@ -10,10 +11,7 @@ class App extends React.Component{
             <h2>Todo App</h2>
           </div>
           <div className={'content'}>
-            <Row>
-              <Col sm={10} md={10} lg={10} xl={10}>hello</Col>
-              <Col sm={2} md={2} lg={2} xl={2}>hello</Col>
-            </Row>
+            <Card/>
           </div>
       </div>
     )
