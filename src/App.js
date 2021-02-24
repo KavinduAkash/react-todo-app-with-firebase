@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import {Col, Row} from "reactstrap";
+import './App.style.scss';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component{
+  render() {
+    return (
+      <div className={'todo-app'}>
+          <div className={'header'}>
+            <h2>Todo App</h2>
+          </div>
+          <div className={'content'}>
+            <Row>
+              <Col sm={10} md={10} lg={10} xl={10}>hello</Col>
+              <Col sm={2} md={2} lg={2} xl={2}>hello</Col>
+            </Row>
+          </div>
+      </div>
+    )
+  }
 }
 
 export default App;
